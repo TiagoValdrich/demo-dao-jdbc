@@ -29,6 +29,14 @@ public class Program {
 
         System.out.println("=== ------------------------- ===");
 
+        System.out.println("\n=== TEST 3: Seller findAll() ===");
+
+        list = sellerDao.findAll();
+
+        list.forEach(System.out::println);
+
+        System.out.println("=== ------------------------- ===");
+
     }
 
 }
