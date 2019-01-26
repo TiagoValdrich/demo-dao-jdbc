@@ -99,7 +99,7 @@ public class DepartmentDaoJDBC implements DepartmentDao {
         try {
 
             st = conn.prepareStatement(
-                    "DELETE department "
+                    "DELETE FROM department "
                         + " WHERE Id = ?"
             );
 
